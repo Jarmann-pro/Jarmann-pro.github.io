@@ -100,13 +100,17 @@ button{
   border: 0;
   transition: .8s;
   color: #FFFFFF;
+  cursor: pointer;
   outline: 0;
 }
 button:hover {
+  cursor: pointer;
+  cursor: pointer;
   transition: .8s;
   background: #69bcff;
 }
 button:active {
+  cursor: pointer;
   transition: .15s;
   background: #69ff9b;
 }
