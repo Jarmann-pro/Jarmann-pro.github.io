@@ -119,13 +119,14 @@
 .fourth_section h3 {
   padding-top: 30px;
   padding-bottom: 10px;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   color: #212121;
 }
 .fourth_section p {
-  font-weight: 300;
+  font-weight: 400;
   padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
