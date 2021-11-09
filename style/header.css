@@ -11,12 +11,13 @@ header {
     border-bottom: 1px solid #ECECEC;
 }
 /* logo */
-.logo a {
+.logo {
     font-family: Raleway;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    color: #212121;
+    text-decoration: none;
 }
 .logo span {
     transition: .4s;
@@ -36,4 +37,7 @@ nav li:nth-child(2n) {
 /* contact */
 .contact a:first-child {
     margin-right: 50px;
+}
+.contact a {
+color: var(--color-contact);
 }

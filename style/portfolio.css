@@ -63,6 +63,8 @@
     flex-direction: column;
 }
 .katalog_price li h3 {
+    font-family: roboto;
+    font-weight: 700;
     padding-top: 20px;
     padding-left: 24px;
     font-size: 18px;
@@ -70,6 +72,8 @@
     color: #212121;
 }
 .katalog_price li p {
+    font-family: roboto;
+    font-weight: 400;
     padding-top: 4px;
     padding-bottom: 20px;
     padding-left: 24px;

@@ -1,8 +1,3 @@
-@import 'home.css';
-@import 'header.css';
-@import 'portfolio.css';
-@import 'footer.css';
-
 /* Обнуление стилей, часто используемые стили */
 /* Указываем box sizing */
 *, *::before, *::after {
@@ -43,11 +38,14 @@ img {
 
 /* _____________ */
 
-/* часто используемые стили */
-body {
-  font-family: Roboto;
-  font-style: normal;
+/* переменные цветов */
+:root {
+  --color-text: #212121; 
+  --color-button-hover: #2196F3;
+  --color-contact: #757575;
 }
+
+/* часто используемые стили */
 .container {
   width: 100%;
   padding: 0 215px;
@@ -56,19 +54,18 @@ section {
   margin: 91px 0;
 }
 /* стили ссылки | link style */
-a {
+.link {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.16;
-  color: #212121;
+  color: var(--color-text);
   text-decoration: none;
   transition: .4s;
 }
 /* ссылка при наведении | link hover */
-a:hover {
-  color: #2196F3;
+.link:hover {
+  color: var(--color-button-hover);
   transition: .4s;
 }
 /* стили заголовка | headline style */
@@ -79,17 +76,16 @@ a:hover {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--color-text);
 }
 
 /* button */
 
 button{
-  background: #2196F3;
+  background: var(--color-button-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: Roboto;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;

@@ -52,6 +52,8 @@
 /* second section */
 .second_section {
   display: flex;
+  font-family: roboto;
+  font-weight: 400;
   align-items: center;
 }
 .second_section ul {
@@ -89,6 +91,8 @@
 
 /* fourth section */
 .fourth_section {
+  font-family: roboto;
+  font-weight: 400;
   background: #F5F4FA;
   margin-bottom: 0;
 }
