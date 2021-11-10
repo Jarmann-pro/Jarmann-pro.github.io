@@ -24,7 +24,6 @@
   background: var(--color-button-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -52,7 +51,6 @@
 /* second section */
 .second_section {
   display: flex;
-  font-family: roboto;
   font-weight: 400;
   align-items: center;
 }
@@ -91,7 +89,6 @@
 
 /* fourth section */
 .fourth_section {
-  font-family: roboto;
   font-weight: 400;
   background: #F5F4FA;
   margin-bottom: 0;
