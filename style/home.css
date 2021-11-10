@@ -21,7 +21,7 @@
   margin-bottom: 30px;
 }
 .first_section button{
-  background: #2196F3;
+  background: var(--color-button-hover);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-family: Roboto;
@@ -35,7 +35,7 @@
   text-align: center;
   border: 0;
   transition: .8s;
-  color: #FFFFFF;
+  color: #fff);
   outline: 0;
 }
 .first_section button:hover {
@@ -70,12 +70,12 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-title-headline);
 }
 .second_section p {
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--color-desc);
 }
 
 
@@ -123,7 +123,7 @@
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
+  color: var(--color-title-headline);
 }
 .fourth_section p {
   font-weight: 400;
@@ -131,7 +131,7 @@
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #757575;
+  color: var(--color-desc);
 }
 
 

@@ -40,9 +40,12 @@ img {
 
 /* переменные цветов */
 :root {
-  --color-text: #212121; 
+  --color-text: #212121;
+  --color-title-headline: #212121; 
   --color-button-hover: #2196F3;
   --color-contact: #757575;
+  --color-desc: #757575;
+  --color-footer-link: #fff;
 }
 
 /* часто используемые стили */
@@ -76,7 +79,7 @@ section {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--color-text);
+  color: var(--color-title-headline);
 }
 
 /* button */
