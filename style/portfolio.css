@@ -9,10 +9,14 @@
 .logic_button {
     margin-top: 95px;
     margin-bottom: 50px;
+    flex-wrap: wrap;
     display: flex;
     width: 50%;
     align-items: center;
     justify-content: space-evenly;
+}
+.logic_button li {
+    margin-top: 15px;
 }
 .non_active_logic_button {
     background: #F5F4FA;
@@ -53,6 +57,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .katalog_price li {
     margin-top: 30px;

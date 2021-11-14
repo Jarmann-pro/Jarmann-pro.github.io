@@ -20,10 +20,10 @@ body, h1, h2, h3, h4, p, ul[class], li {
 body {
   font-family: roboto;
   font-style: normal;
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  flex-wrap: wrap;
 }
 
 /* Удаляем стандартную стилизацию для всех ul */
