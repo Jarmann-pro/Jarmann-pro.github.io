@@ -24,11 +24,11 @@ header {
     transition: .4s;
     color: var(--color-button-hover);
 }
-.logo:hover {
+.logo:hover, .logo:active {
     transition: .4s;
     color: var(--color-button-hover);
 }
-.logo:hover span {
+.logo:hover span, .logo:active span {
     color: var(--color-text);
     transition: .4s;
 }
