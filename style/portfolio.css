@@ -11,12 +11,12 @@
     margin-bottom: 50px;
     flex-wrap: wrap;
     display: flex;
-    width: 50%;
     align-items: center;
     justify-content: space-evenly;
 }
 .logic_button li {
     margin-top: 15px;
+    margin-right: 8px;
 }
 .non_active_logic_button {
     background: #F5F4FA;

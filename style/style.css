@@ -23,7 +23,6 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  flex-wrap: wrap;
 }
 
 /* Удаляем стандартную стилизацию для всех ul */
@@ -52,7 +51,7 @@ img {
 
 /* часто используемые стили */
 .container {
-  width: 100%;
+  width: 1600px;
   padding: 0 215px;
 }
 section {
