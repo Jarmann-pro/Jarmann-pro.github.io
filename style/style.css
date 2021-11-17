@@ -51,11 +51,11 @@ img {
 
 /* часто используемые стили */
 .container {
-  width: 1600px;
-  padding: 0 215px;
+  width: 1200px;
+  margin: 0 auto;
 }
 section {
-  margin: 91px 0;
+  padding: 91px 0;
 }
 /* стили ссылки | link style */
 .link {
