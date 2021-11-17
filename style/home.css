@@ -1,8 +1,10 @@
 /* первая секция | first section */
 .first_section {
-  margin-top: 0;
   background: #2F303A;
   height: 600px;
+}
+.first_section_content {
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +87,10 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 50px;
+  padding-bottom: 94px;
+}
+.third_section h2 {
+  margin-bottom: 50px;
 }
 .third_section li {
   margin-top: 10px;
