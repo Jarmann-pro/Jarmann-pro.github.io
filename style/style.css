@@ -27,6 +27,7 @@ body {
 
 /* Удаляем стандартную стилизацию для всех ul */
 ul {
+  margin: 0;
   list-style: none;
   padding-left: 0;
 }
@@ -45,17 +46,19 @@ img {
   --color-title-headline: #212121; 
   --color-button-hover: #2196F3;
   --color-contact: #757575;
-  --color-desc: #757575;
+  --color-desc: #757575; /* card description */
   --color-footer-link: #fff;
 }
 
 /* часто используемые стили */
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 section {
-  padding: 91px 0 0 0;
+  padding-top: 94px;
 }
 /* стили ссылки | link style */
 .link {

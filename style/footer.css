@@ -13,6 +13,12 @@ footer {
   color: var(--color-footer-link);
   transition: .4s;
 }
+footer ul  {
+  padding-top: 20px;
+}
+.contact {
+  padding-top: 9px;
+}
 .footer_link {
   font-size: 14px;
   font-weight: 400;
