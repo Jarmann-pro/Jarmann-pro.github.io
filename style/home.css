@@ -93,9 +93,6 @@
 .third_section h2 {
   margin-bottom: 50px;
 }
-.third_section li {
-  margin-top: 10px;
-}
 
 
 /* fourth section */
@@ -110,10 +107,10 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly;
   padding-bottom: 95px;
 }
 .fourth_section li {
+  margin-right: 30px;
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -122,8 +119,13 @@
   align-items: center;
   flex-direction: column;
 }
+.fourth_section li:nth-child(4) {
+  margin-right: 0;
+}
+.desc_card {
+  padding: 30px 0;
+}
 .fourth_section h3 {
-  padding-top: 30px;
   padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -133,7 +135,6 @@
 }
 .fourth_section p {
   font-weight: 400;
-  padding-bottom: 30px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;

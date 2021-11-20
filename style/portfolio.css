@@ -64,25 +64,29 @@
 .katalog_price ul {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .katalog_price ul li:nth-child(1), .katalog_price ul li:nth-child(2), .katalog_price ul li:nth-child(3) {
     margin-top: 0;
 }
+.katalog_price li:nth-child(3n) {
+    margin-right: 0;
+}
 .katalog_price li {
     margin-top: 30px;
+    margin-right: 27px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
 }
+.desc_card_portfolio {
+    padding: 20px 0 20px 24px;
+}
 .katalog_price li h3 {
     font-family: roboto;
     font-weight: 700;
-    padding-top: 20px;
-    padding-left: 24px;
     font-size: 18px;
     line-height: 2;
     color: #212121;
@@ -91,8 +95,6 @@
     font-family: roboto;
     font-weight: 400;
     padding-top: 4px;
-    padding-bottom: 20px;
-    padding-left: 24px;
     font-size: 16px;
     line-height: 1.87;
     color: var(--color-desc)

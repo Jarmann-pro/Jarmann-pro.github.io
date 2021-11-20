@@ -10,7 +10,6 @@ header div {
     background: #fff;
     height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 /* logo */
@@ -37,12 +36,18 @@ header div {
 }
 /* nav */
 nav ul {
+    margin-left: 93px;
     display: flex;
 }
 nav li:nth-child(2n) {
     margin: 0 50px;
 }
 /* contact */
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
 .contact a:first-child {
     margin-right: 50px;
 }

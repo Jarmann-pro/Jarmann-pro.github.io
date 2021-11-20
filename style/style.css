@@ -69,6 +69,16 @@ section {
   text-decoration: none;
   transition: .4s;
 }
+.footer_link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+  text-decoration: none;
+  transition: .4s;
+}
+.contact_footer {
+  justify-content: flex-start;
+}
 /* ссылка при наведении | link hover */
 .link:hover {
   color: var(--color-button-hover);
@@ -88,7 +98,6 @@ section {
 
 button{
   background: var(--color-button-hover);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
@@ -105,11 +114,13 @@ button{
 }
 button:hover {
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   transition: .8s;
   background: #69bcff;
 }
 button:active {
   cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   transition: .15s;
   background: #69ff9b;
 }
