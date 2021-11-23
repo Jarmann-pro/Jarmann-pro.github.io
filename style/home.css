@@ -1,8 +1,12 @@
 /* первая секция | first section */
 .first_section {
-  background: #2F303A;
+  background-image: linear-gradient(
+    rgba(47, 48, 58, 0.4)
+    ), 
+    url(../img/home/bg_first_section.jpg);
   height: 600px;
   padding-top: 0; 
+  padding-bottom: 0;
 }
 .first_section_content {
   height: 100%;
@@ -64,7 +68,7 @@
   width: 100%;
 }
 .second_section li {
-  max-width: 240px;
+  max-width: 270px;
   margin-top: 15px;
 } 
 .second_section h3 {

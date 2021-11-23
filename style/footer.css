@@ -24,3 +24,10 @@ footer ul  {
   display: flex;
   justify-content: flex-start;
 }
+.contact {    
+  display: flex;
+  width: 100%;
+}
+.contact a {
+color: var(--color-contact);
+}
