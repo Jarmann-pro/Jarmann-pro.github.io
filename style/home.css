@@ -1,9 +1,8 @@
 /* первая секция | first section */
 .first_section {
-  background-image: linear-gradient(
-    rgba(47, 48, 58, 0.4)
-    ), 
-    url(../img/home/bg_first_section.jpg);
+  background-color: #2F303A;
+  background-image:  url(../img/home/bg_first_section.jpg);
+  background-repeat: no-repeat;
   height: 600px;
   padding-top: 0; 
   padding-bottom: 0;
@@ -83,7 +82,16 @@
   line-height: 1.71;
   color: var(--color-desc);
 }
-
+.icon_second_section {
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
 
 /* third section */
