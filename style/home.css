@@ -58,6 +58,7 @@
   display: flex;
   font-weight: 400;
   align-items: center;
+  padding-bottom: 0;
 }
 .second_section ul {
   flex-wrap: wrap;
@@ -78,6 +79,7 @@
   color: var(--color-title-headline);
 }
 .second_section p {
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
   color: var(--color-desc);
